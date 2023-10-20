@@ -255,74 +255,134 @@ footer p {
 /*Mobile*/
 
 @media (max-width: 768px) {
+    .caixa-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .caixa-principal .floating-image {
         margin-left: 0;
-        margin-top: 20px; 
-        height: 300px; 
-        width: 300px; 
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .portifolio {
+        font-size: 28px;
+    }
+
+    li {
+        font-size: 20px;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .meu-nome {
-        top: 25%; 
-        left: 5%; 
+        top: auto;
+        left: auto;
+        text-align: center;
     }
 
     h1 {
-        font-size: 40px; 
-    }
-
-    h1 span {
-        font-size: 25px; 
+        font-size: 40px;
     }
 
     .meu-nome h3 {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .meu-nome p {
-        margin-top: 30px; 
+        margin-top: 20px;
     }
 
     section {
-        padding: 40px 5%; 
+        padding: 30px 10%;
     }
 
     section img {
-        height: 200px; 
-        margin-right: 20px; 
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
     section div h2 {
-        font-size: 40px; 
+        font-size: 40px;
     }
 
     section div p {
-        font-size: 16px; 
-        margin-top: 10px; 
+        font-size: 16px;
+        margin-top: 10px;
         margin-bottom: 30px;
     }
 
+    section div button {
+        height: 40px;
+        width: 150px;
+        font-size: 14px;
+    }
+
     .Projetos h2 {
-        font-size: 40px; 
+        font-size: 40px;
     }
 
     .card {
-        height: auto; 
-        width: 90%; 
-        padding: 15px 5px; 
+        height: 300px;
+        width: 250px;
+        padding: 15px;
     }
 
     .card img {
-        height: 100px; 
+        height: 120px;
     }
 
     .card h5 {
-        font-size: 16px; 
+        font-size: 16px;
     }
 
-    .card p {
-        font-size: 14px; 
-        margin-top: 10px; 
+    .card p{
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card a{
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .card-projetos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    footer h5 {
+        font-size: 26px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin-top: 10px;
         margin-bottom: 20px;
+    }
+
+    .social img {
+        height: 20px;
+    }
+
+    .social a {
+        height: 40px;
+        width: 40px;
     }
 }
