@@ -18,7 +18,7 @@
     width: 500px;
     background-image: url(./img/ling.png);
     background-size: cover;
-    animation: floatImage 5s infinite alternate;
+    animation: floatImage 3s infinite alternate;
     background-repeat: no-repeat;
 }
 
